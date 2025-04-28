@@ -44,6 +44,10 @@ PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
 # PACKAGES="$PACKAGES fdisk"
 # PACKAGES="$PACKAGES script-utils"
 # PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+# 张伟增加
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-alist-zh-cn"
+
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
